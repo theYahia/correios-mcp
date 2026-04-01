@@ -1,14 +1,18 @@
 {
   "name": "@theyahia/correios-mcp",
-  "version": "1.0.0",
-  "description": "MCP server for Correios Brazilian postal service",
+  "version": "1.0.1",
+  "description": "MCP server for Correios — postal tracking, shipping rates (Brazil)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "correios-mcp": "dist/index.js"
   },
-  "files": ["dist"],
-  "engines": { "node": ">=18.0.0" },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -27,11 +31,28 @@
     "typescript": "^5.7.0",
     "vitest": "^3.1.0"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "mcpName": "io.github.theYahia/correios-mcp",
-  "keywords": ["mcp","mcp-server","model-context-protocol","claude","ai","correios","brazil-api","logistics","postal","typescript"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "correios",
+    "brazil-api",
+    "logistics",
+    "postal",
+    "typescript",
+    "api"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/theYahia/correios-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/correios-mcp.git"
+  },
   "homepage": "https://github.com/theYahia/correios-mcp#readme",
   "author": "theYahia (https://github.com/theYahia)"
 }
